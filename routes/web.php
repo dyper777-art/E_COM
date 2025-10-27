@@ -4,6 +4,7 @@ use App\Http\Controllers\ProductController;
 use App\Http\Middleware\IsAdmin;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\OrderController;
+use App\Http\Controllers\UserController;
 use Laravel\Fortify\Features;
 use Laravel\Fortify\Http\Controllers\EmailVerificationNotificationController;
 use Laravel\Fortify\Http\Controllers\EmailVerificationPromptController;
@@ -107,10 +108,7 @@ Route::middleware(['auth', 'verified', IsAdmin::class])->group(function () {
 
 
 
-Route::get('/', function () {
-    $user = Auth::user();
-    return view('user/index', compact('user'));
-});
+Route::get('/', [UserController::class, 'index']);
 
 
 Route::get('/product', function () {
