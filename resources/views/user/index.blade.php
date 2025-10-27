@@ -557,8 +557,12 @@
             </div>
 
 
-            <div class="row isotope-grid">
-                @foreach ($product as $item)
+            {{-- <div class="row isotope-grid">
+                @foreach ($product as $item) --}}
+
+
+                    {{--  --}}
+
                     {{-- <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item {{ $item->category_name }}">
                         <div class="block2">
                             <div class="block2-pic hov-img0">
@@ -594,7 +598,11 @@
                             </div>
                         </div>
                     </div> --}}
-                    <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item {{ $item->category_name }}">
+
+                    {{--  --}}
+
+
+                    {{-- <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item {{ $item->category_name }}">
                         <div class="block2">
                             <div class="block2-pic hov-img0 position-relative">
                                 @if ($item->discount > 0)
@@ -635,7 +643,9 @@
                         </div>
                     </div>
                 @endforeach
-            </div>
+            </div> --}}
+
+            
             <!-- Load more -->
             <div class="flex-c-m flex-w w-full p-t-45">
                 <a href="#" class="flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
