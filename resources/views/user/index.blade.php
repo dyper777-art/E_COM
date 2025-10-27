@@ -1,7 +1,7 @@
 @extends('user.layout_user')
 @section('main_content')
     <!-- Modal -->
-    <div class="wrap-modal1 js-modal1 p-t-60 p-b-20" id="product-modal" style="display:none;">
+    {{-- <div class="wrap-modal1 js-modal1 p-t-60 p-b-20" id="product-modal" style="display:none;">
         <div class="overlay-modal1 js-hide-modal1"></div>
 
         <div class="container">
@@ -10,7 +10,10 @@
                     <img src="user/images/icons/icon-close.png" alt="CLOSE">
                 </button>
 
-                <div class="row">
+                <div class="row"> --}}
+
+                    {{--  --}}
+
                     {{-- <div class="col-md-6 col-lg-7 p-b-30">
                         <div class="p-l-25 p-r-30 p-lr-0-lg">
                             <div class="wrap-slick3 flex-sb flex-w">
@@ -24,7 +27,11 @@
                         </div>
                     </div> --}}
 
-                    <div class="col-md-6 col-lg-5 p-b-30">
+                    {{--  --}}
+
+
+
+                    {{-- <div class="col-md-6 col-lg-5 p-b-30">
                         <div class="p-r-50 p-t-5 p-lr-0-lg">
                             <h4 class="mtext-105 cl2 js-name-detail p-b-14" id="product-name">
                                 <!-- Product name will be inserted here -->
@@ -128,7 +135,8 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
+
     <!-- Slider -->
     {{-- <section class="section-slide">
         <div class="wrap-slick1">
@@ -299,13 +307,13 @@
 
 
     <!-- Product -->
-    <section class="bg0 p-t-23 p-b-140">
+    {{-- <section class="bg0 p-t-23 p-b-140">
         <div class="container">
             <div class="p-b-10">
                 <h3 class="ltext-103 cl5">
                     Product Overview
                 </h3>
-            </div>
+            </div> --}}
 
             {{-- <div class="flex-w flex-sb-m p-b-52">
                 <div class="flex-w flex-l-m filter-tope-group m-tb-10">
@@ -647,13 +655,13 @@
 
 
             <!-- Load more -->
-            <div class="flex-c-m flex-w w-full p-t-45">
+            {{-- <div class="flex-c-m flex-w w-full p-t-45">
                 <a href="#" class="flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
                     Load More
                 </a>
             </div>
         </div>
-    </section>
+    </section> --}}
     {{-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <style>
