@@ -11,7 +11,7 @@
                 </button>
 
                 <div class="row">
-                    <div class="col-md-6 col-lg-7 p-b-30">
+                    {{-- <div class="col-md-6 col-lg-7 p-b-30">
                         <div class="p-l-25 p-r-30 p-lr-0-lg">
                             <div class="wrap-slick3 flex-sb flex-w">
                                 <div class="wrap-slick3-dots"></div>
@@ -22,7 +22,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
                     <div class="col-md-6 col-lg-5 p-b-30">
                         <div class="p-r-50 p-t-5 p-lr-0-lg">
