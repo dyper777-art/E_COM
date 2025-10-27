@@ -30,15 +30,4 @@
     <script>
         var userId = {{ Auth::check() ? Auth::id() : 'null' }};
     </script>
-
-    <!-- Open Graph for Telegram, Facebook, etc. -->
-    <meta property="og:title" content="Cool Shirt - COZA STORE">
-    <meta property="og:description" content="@yield('description', 'Best online store for fashion & accessories.')">
-    <meta property="og:url" content="{{ url()->current() }}">
-    <meta property="og:type" content="website">
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="@yield('title', 'COZA STORE')">
-    <meta name="twitter:description" content="@yield('description', 'Best online store for fashion & accessories.')">
 </head>
