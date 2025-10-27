@@ -106,7 +106,7 @@ Route::middleware(['auth', 'verified', IsAdmin::class])->group(function () {
 
 
 
-Route::get('/', [\App\Http\Controllers\UserController::class, 'index'])->name('user.index');
+Route::get('/', [\App\Http\Controllers\UserController::class, 'index'])->name('home');
 
 
 Route::get('/product', function () {
