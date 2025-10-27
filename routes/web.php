@@ -112,6 +112,10 @@ Route::get('/', function (){
     return view('user/index')->with('product', []);
 });
 
+Route::get('/home', function (){
+    return view('user/index')->with('product', []);
+});
+
 
 Route::get('/product', function () {
     return view('user/product');
