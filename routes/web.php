@@ -106,7 +106,11 @@ Route::middleware(['auth', 'verified', IsAdmin::class])->group(function () {
 
 
 
-Route::get('/', [\App\Http\Controllers\UserController::class, 'product'])->name('home');
+// Route::get('/', [\App\Http\Controllers\UserController::class, 'product'])->name('home');
+
+Route::get('/', function (){
+    return view('user/index')->with('product', []);
+});
 
 
 Route::get('/product', function () {
