@@ -1,5 +1,5 @@
 <!-- Header -->
-<header class="{{ request()->is('/') ? 'header-v4' : 'header-v4' }}">
+<header class="{{ request()->is('/') ? '' : 'header-v4' }}">
     <!-- Header Desktop -->
     <div class="container-menu-desktop">
         <!-- Topbar -->
