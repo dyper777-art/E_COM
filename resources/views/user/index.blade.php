@@ -130,7 +130,7 @@
         </div>
     </div>
     <!-- Slider -->
-    <section class="section-slide">
+    {{-- <section class="section-slide">
         <div class="wrap-slick1">
             <div class="slick1">
                 <div class="item-slick1" style="background-image: url(user/images/slide-01.jpg);">
@@ -211,9 +211,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- Banner -->
-    <div class="sec-banner bg0 p-t-80 p-b-50">
+    {{-- <div class="sec-banner bg0 p-t-80 p-b-50">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-xl-4 p-b-30 m-lr-auto">
@@ -295,7 +295,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 
 
     <!-- Product -->
@@ -307,7 +307,7 @@
                 </h3>
             </div>
 
-            <div class="flex-w flex-sb-m p-b-52">
+            {{-- <div class="flex-w flex-sb-m p-b-52">
                 <div class="flex-w flex-l-m filter-tope-group m-tb-10">
                     <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" data-filter="*">
                         All Products
@@ -554,7 +554,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
 
             {{-- <div class="row isotope-grid">
