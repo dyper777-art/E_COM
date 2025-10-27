@@ -1,11 +1,11 @@
 @extends('user.layout_user')
 @section('main_content')
     <!-- Title page -->
-	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('user/images/bg-02.jpg');">
+	{{-- <section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('user/images/bg-02.jpg');">
 		<h2 class="ltext-105 cl0 txt-center">
 			Blog
 		</h2>
-	</section>	
+	</section>
 
 
 	<!-- Content page -->
@@ -44,12 +44,12 @@
 								<div class="flex-w flex-sb-m p-t-18">
 									<span class="flex-w flex-m stext-111 cl2 p-r-30 m-tb-10">
 										<span>
-											<span class="cl4">By</span> Admin  
+											<span class="cl4">By</span> Admin
 											<span class="cl12 m-l-4 m-r-6">|</span>
 										</span>
 
 										<span>
-											StreetStyle, Fashion, Couple  
+											StreetStyle, Fashion, Couple
 											<span class="cl12 m-l-4 m-r-6">|</span>
 										</span>
 
@@ -86,7 +86,7 @@
 							<div class="p-t-32">
 								<h4 class="p-b-15">
 									<a href="blog-detail.html" class="ltext-108 cl2 hov-cl1 trans-04">
-										The Great Big List of Men’s Gifts for the Holidays 
+										The Great Big List of Men’s Gifts for the Holidays
 									</a>
 								</h4>
 
@@ -97,12 +97,12 @@
 								<div class="flex-w flex-sb-m p-t-18">
 									<span class="flex-w flex-m stext-111 cl2 p-r-30 m-tb-10">
 										<span>
-											<span class="cl4">By</span> Admin  
+											<span class="cl4">By</span> Admin
 											<span class="cl12 m-l-4 m-r-6">|</span>
 										</span>
 
 										<span>
-											StreetStyle, Fashion, Couple  
+											StreetStyle, Fashion, Couple
 											<span class="cl12 m-l-4 m-r-6">|</span>
 										</span>
 
@@ -150,12 +150,12 @@
 								<div class="flex-w flex-sb-m p-t-18">
 									<span class="flex-w flex-m stext-111 cl2 p-r-30 m-tb-10">
 										<span>
-											<span class="cl4">By</span> Admin  
+											<span class="cl4">By</span> Admin
 											<span class="cl12 m-l-4 m-r-6">|</span>
 										</span>
 
 										<span>
-											StreetStyle, Fashion, Couple  
+											StreetStyle, Fashion, Couple
 											<span class="cl12 m-l-4 m-r-6">|</span>
 										</span>
 
@@ -425,5 +425,5 @@
 				</div>
 			</div>
 		</div>
-	</section>	
+	</section> --}}
 @endsection
