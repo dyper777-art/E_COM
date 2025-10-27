@@ -2,7 +2,8 @@
     <meta charset="UTF-8">
 
     <title>COZA STORE</title>
-    <meta property="og:title" content="Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)">
+    <meta property="og:title" content="COZA STORE - Best Online Fashion & Accessories">
+
     <meta content="COZE - Clothes Shop" name="description">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
