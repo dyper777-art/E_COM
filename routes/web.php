@@ -110,7 +110,7 @@ Route::middleware(['auth', 'verified', IsAdmin::class])->group(function () {
 Route::get('/', function () {
     $user = Auth::user();
     return view('user/index', compact('user'));
-})->name('home');
+});
 
 
 Route::get('/product', function () {
