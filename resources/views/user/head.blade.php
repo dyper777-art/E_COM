@@ -4,8 +4,10 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="{{ asset('user/images/icons/favicon.png') }}"/>
 
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="{{ asset('user/vendor/bootstrap/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('user/fonts/font-awesome-4.7.0/css/font-awesome.min.css') }}">
     <link rel="stylesheet" href="{{ asset('user/fonts/iconic/css/material-design-iconic-font.min.css') }}">
@@ -22,7 +24,19 @@
     <link rel="stylesheet" href="{{ asset('user/css/main.css') }}">
     <link rel="stylesheet" href="{{ asset('user/css/badge.css') }}">
 
+    <!-- User JS -->
     <script>
         var userId = {{ Auth::check() ? Auth::id() : 'null' }};
     </script>
+
+    <!-- Open Graph for Telegram, Facebook, etc. -->
+    <meta property="og:title" content="@yield('title', 'COZA STORE')">
+    <meta property="og:description" content="@yield('description', 'Best online store for fashion & accessories.')">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="@yield('title', 'COZA STORE')">
+    <meta name="twitter:description" content="@yield('description', 'Best online store for fashion & accessories.')">
 </head>
