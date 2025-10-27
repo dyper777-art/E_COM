@@ -1,6 +1,5 @@
 <head>
-    {{-- <title>@yield('title', 'COZA STORE')</title> --}}
-    <meta property="og:title" content="@yield('title', 'COZA STORE')">
+    <title>@yield('title', 'COZA STORE')</title>
     <meta charset="UTF-8">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,6 +30,7 @@
     </script>
 
     <!-- Open Graph for Telegram, Facebook, etc. -->
+    <meta property="og:title" content="Cool Shirt - COZA STORE">
     <meta property="og:description" content="@yield('description', 'Best online store for fashion & accessories.')">
     <meta property="og:url" content="{{ url()->current() }}">
     <meta property="og:type" content="website">
