@@ -645,7 +645,7 @@
                 @endforeach
             </div> --}}
 
-            
+
             <!-- Load more -->
             <div class="flex-c-m flex-w w-full p-t-45">
                 <a href="#" class="flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
@@ -654,7 +654,7 @@
             </div>
         </div>
     </section>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    {{-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <style>
         .is-invalid {
@@ -666,5 +666,5 @@
             font-size: 0.875rem;
             margin-top: 0.25rem;
         }
-    </style>
+    </style> --}}
 @endsection
